@@ -1,0 +1,39 @@
+{
+	"easycom": {
+		"custom": {  
+			"^u-(.*)": "uview-plus/components/u-$1/u-$1.vue" 
+		}
+	},
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "物业系统-物业"
+			}
+		},
+		{
+			"path": "pages/service-list/service-list",
+			"style": {
+				"navigationBarTitleText": "服务单"
+			}
+		},
+		{
+			"path": "pages/community/community",
+			"style": {
+				"navigationBarTitleText": "社区"
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

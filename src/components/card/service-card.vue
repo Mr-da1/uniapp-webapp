@@ -119,6 +119,7 @@ onHide(() => {
             color: #fff;
             margin-right: 10rpx;
             flex-shrink: 0;
+            border-radius: 4rpx;
           }
           .title {
             font-size: 28rpx;

@@ -49,7 +49,6 @@ onHide(() => {
   .add-property-card {
     margin-top: 66rpx;
     height: 136rpx;
-    // width: 100%;
     background-color: #CECECE;
     display: flex;
     justify-content: space-between;

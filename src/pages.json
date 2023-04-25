@@ -1,7 +1,7 @@
 {
 	"easycom": {
-		"custom": {  
-			"^u-(.*)": "uview-plus/components/u-$1/u-$1.vue" 
+		"custom": {
+			"^u-(.*)": "uview-plus/components/u-$1/u-$1.vue"
 		}
 	},
 	"pages": [
@@ -27,6 +27,18 @@
 			"path": "pages/mine/mine",
 			"style": {
 				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/mine/message-center/message-center",
+			"style": {
+				"navigationBarTitleText": "消息中心"
+			}
+		},
+		{
+			"path": "pages/mine/social-account/social-account",
+			"style": {
+				"navigationBarTitleText": "社交账号"
 			}
 		}
 	],

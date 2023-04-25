@@ -38,7 +38,7 @@
   const title = ref('')
   const userAvatarSrc = ref('http://pic2.sc.chinaz.com/Files/pic/pic9/202002/hpic2119_s.jpg')
   const userName = ref('用户名称')
-  const userPhone = ref('***********')
+  const userPhone = ref('138****6840')
   const socialList = [
       {id:1,icon:'icon-logo-weibo'},
       {id:2,icon:'icon-tuite'},
@@ -119,9 +119,6 @@
                    font-family:PingFangSC-medium;
                }
            }
-           ::v-deep .u-border-top{
-               // border:none;
-           }
            ::v-deep .u-tabbar-item{
                width:21%;
            }
@@ -130,12 +127,11 @@
          ::v-deep .u-cell{
             width:668rpx;
             height:100rpx;
-            line-height:100rpx;
             border-radius:22rpx;
             background-color: rgba(255, 255, 255, 1);
             margin-bottom:28rpx;
          }
-         ::v-deep .u-cell_body{
+         ::v-deep .u-cell__body{
              padding:14px 15px;
          }
        }

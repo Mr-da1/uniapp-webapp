@@ -13,9 +13,10 @@
     </u-cell-group>
 </template>
 <script setup lang="ts">
+  
    const actionCellList = [
-       {id:'message-center',text:'消息中心',link:''},
-       {id:'social-account',text:'社交账号',link:''},
+       {id:'message-center',text:'消息中心',link:'/pages/mine/message-center/message-center'},
+       {id:'social-account',text:'社交账号',link:'/pages/mine/social-account/social-account'},
        {id:'setting',text:'设置',link:''},
        {id:'customer-service',text:'联系客服',link:''},
    ]

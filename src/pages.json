@@ -28,6 +28,12 @@
 			"style": {
 				"navigationBarTitleText": "个人中心"
 			}
+		},
+		{
+			"path": "pages/add-property-form/add-property-form",
+			"style": {
+				"navigationBarTitleText": "添加物业"
+			}
 		}
 	],
 	"globalStyle": {

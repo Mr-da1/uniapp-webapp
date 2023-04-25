@@ -73,4 +73,7 @@ onHide(() => {
     }
   }
 }
+::v-deep .u-swiper-indicator {
+  background-color: red !important;
+}
 </style>

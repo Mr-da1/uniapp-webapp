@@ -30,7 +30,12 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, defineEmits } from 'vue'
+
+
+const emits = defineEmits<{
+  (e: "sumbit"): void;
+}>();
 
 const idCardCode = ref();
 const dialogTile = ref<string>('请先进行身份认证');
@@ -48,6 +53,7 @@ const sumbit = (() => {
 	return;
   }
   checkPass.value = true;
+  emits("sumbit");
 })
 const ok = (() => {
   dialogVisble.value = false;

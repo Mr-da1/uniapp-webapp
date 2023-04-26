@@ -4,7 +4,6 @@
   </view>
 </template>
 <script setup lang="ts">
-import { onShow, onHide, onLoad } from '@dcloudio/uni-app'
 import { ref, computed, defineProps, withDefaults, watch, defineEmits } from "vue";
 
 const emits = defineEmits<{
@@ -15,17 +14,7 @@ const addProperty = (() => {
 	// emits('addProperty')
 })
 
-onLoad((options) => {
-  console.log('page query', options)
-})
 
-// 页面切换到前台时
-onShow(() => {
-})
-
-// 页面切换到后台时
-onHide(() => {
-})
 </script>
 <style lang="scss" scoped>
 .add-property {

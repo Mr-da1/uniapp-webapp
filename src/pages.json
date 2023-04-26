@@ -1,7 +1,7 @@
 {
 	"easycom": {
-		"custom": {
-			"^u-(.*)": "uview-plus/components/u-$1/u-$1.vue"
+		"custom": {  
+			"^u-(.*)": "uview-plus/components/u-$1/u-$1.vue" 
 		}
 	},
 	"pages": [
@@ -27,6 +27,12 @@
 			"path": "pages/mine/mine",
 			"style": {
 				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/add-property-form/add-property-form",
+			"style": {
+				"navigationBarTitleText": "添加物业"
 			}
 		},
 		{

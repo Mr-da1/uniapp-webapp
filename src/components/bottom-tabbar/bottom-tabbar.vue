@@ -26,7 +26,7 @@ const props = withDefaults(defineProps<{
 const click1 = ((e: string) => {
   if (props.activeName === e) return;
   uni.redirectTo({
-	url: `/pages/${e}/${e}`
+	  url: `/pages/${e}/${e}`
   });
 })
 </script>

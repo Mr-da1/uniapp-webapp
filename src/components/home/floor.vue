@@ -49,7 +49,6 @@ onHide(() => {
   .add-property-card {
     margin-top: 66rpx;
     height: 136rpx;
-    // width: 100%;
     background-color: #CECECE;
     display: flex;
     justify-content: space-between;
@@ -72,5 +71,8 @@ onHide(() => {
       border-radius: 10rpx;
     }
   }
+}
+::v-deep .u-swiper-indicator {
+  background-color: red !important;
 }
 </style>

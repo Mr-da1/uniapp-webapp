@@ -17,7 +17,7 @@ onShow(() => {
   title.value = 'hello uni-app-vue3 setup'
 })
 
-// 页面切换到后台时
+// 页面切换到后台时dddd
 onHide(() => {
   title.value = 'see you'
 })

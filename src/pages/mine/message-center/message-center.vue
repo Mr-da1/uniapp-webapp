@@ -17,7 +17,7 @@
 </template>
 <script setup lang="ts">
    const messageAccountList = [
-       {id:'weibo',text:'系统消息',icon:'icon-xitongxiaoxi',link:'',message:'尊敬的用户，我们将于2023年5月4日晚进行系统更新,我看看超出了会不会溢出隐藏啊啊啊啊...'},
+       {id:'weibo',text:'系统消息',icon:'icon-xitongxiaoxi',link:'',message:'尊敬的用户，我们将于2023年5月4日晚进行系统更新,我看看超出了会不会溢出隐藏啊啊啊啊啊啊...'},
        {id:'twitter',text:'推送消息',icon:'icon-xitongxiaoxi',link:'',message:'尊敬的用户，我们将于2023年5月4日晚进行系统更新...'},
    ]
 </script>
